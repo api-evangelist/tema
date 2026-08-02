@@ -1,0 +1,14 @@
+{
+  "repo": "tema",
+  "feeds": [
+    {
+      "source": "https://www.temaetfs.com/",
+      "feed_url": "https://www.temaetfs.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:49:00Z"
+}

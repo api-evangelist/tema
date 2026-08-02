@@ -1,8 +1,25 @@
 aid: tema
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tema.png
 name: Tema
-description: 'Tema is a company surfaced as a portfolio company of accel, index-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tema is a thematic, active ETF issuer founded in 2022 by CEO Maurits Pot (formerly of
+  Goldman Sachs, Vitol and Kingsway Capital) and backed by Index Ventures, Accel and Zinal Growth in
+  what the firm described as the largest venture round in ETFs to date. Tema builds institutional-grade,
+  expert-led thematic exchange-traded funds spanning growth themes (space, oncology, electrification,
+  reshoring, luxury) and core strategies, and is underpinned by an end-to-end ETF issuance infrastructure
+  that also enables turnkey launches for external fund managers. The company is a consumer-facing asset
+  manager; it publishes investor resources, fund pages, insights and educational content but does not
+  currently expose a public developer API, SDKs, or technical documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/tema/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- ETF
+- Asset Management
+- Investing
+- Financial Services
+- Thematic Investing
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tema-domain-security.yml
 - type: Website
   url: https://www.temaetfs.com/
+- type: Blog
+  url: https://www.temaetfs.com/insights
+- type: PrivacyPolicy
+  url: https://www.temaetfs.com/privacy-policy
+- type: About
+  url: https://www.temaetfs.com/about-us
+- type: News
+  url: https://www.temaetfs.com/press
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
