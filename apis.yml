@@ -48,7 +48,7 @@ tags:
 - ETFs
 - Asset Management
 - Investing
-- Financial-Services
+- Financial Services
 - Thematic Investing
 - Fintech
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Financial Services
 - Thematic Investing
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
