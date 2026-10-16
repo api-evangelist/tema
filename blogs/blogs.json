@@ -2,6 +2,27 @@
   "repo": "tema",
   "feeds": [
     {
+      "source": "https://temaetfs.com/insights",
+      "feed_url": "https://temaetfs.com/insights/rss.xml",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    },
+    {
+      "source": "https://temaetfs.com/insights/rss.xml",
+      "feed_url": "https://temaetfs.com/insights/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.temaetfs.com/insights",
+      "feed_url": "https://temaetfs.com/insights/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://www.temaetfs.com/",
       "feed_url": "https://www.temaetfs.com/",
       "title": "",
@@ -9,6 +30,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 1,
+  "fetched": "2026-10-10T13:15:00Z"
 }
